@@ -1,0 +1,10 @@
+/*
+--First JavaScript Activity--
+Author: Adrian Demetri C. Par
+*/
+// the given temperature value of kelvin is constant so we use variable type 'const'
+const kelvin = 293; 
+
+const Celsius = kelvin - 273;
+let Fahrenheit = Math.floor(Celsius * (9/5) + 32);
+console.log(`The temperature is ${Fahrenheit} degrees Fahrenheit`);
